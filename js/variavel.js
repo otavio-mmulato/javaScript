@@ -8,4 +8,5 @@ function exemploVar(){
     console.log(x); //acessível
     console.log(y); //Erro: y não está definido
     console.log(z); //Erro: z não está definido
+    
 }
