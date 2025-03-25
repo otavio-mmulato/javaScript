@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar dados</title>
+    <script src="js/diananubank.js"></script>
+</head>
+<body>
+    <form id="meuformulário">
+        <label for="numero1">Número 1:</label>
+        <input type="number" id="num1" name="num1"><br>
+        <label for="numero2">Número 2:</label>
+        <input type="number" id="num2" name="num2"><br>
+        <button type="button" onclick="enviarDados(num1.value, num2.value)">Enviar</button>
+    </form>
+    <p id="resultado"></p>
+</body>
+</html>
